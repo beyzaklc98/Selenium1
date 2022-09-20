@@ -1,11 +1,11 @@
-package practic2;
+package practice2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class practic1 {
+public class practice1 {
 
     public static void main(String[] args) throws InterruptedException {
 

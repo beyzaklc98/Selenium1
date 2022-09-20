@@ -1,4 +1,4 @@
-package practic2;
+package practice2;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
-public class practic4 {
+public class practice4 {
 
     public static void main(String[] args) throws InterruptedException {
 

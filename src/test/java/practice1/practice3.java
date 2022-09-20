@@ -1,9 +1,9 @@
-package practic1;
+package practice1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class practic3 {
+public class practice3 {
 
     public static void main(String[] args) {
 
