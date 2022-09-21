@@ -46,7 +46,7 @@ public class C01_GetMethodlari {
 
         // -Arama kutusunun name atributu'nun değerinin field-keywords olduğunu test ediniz
         String expectedAtributuName = "field-keywords";
-        String actualAtributuName = aramaKutusu.getAttribute("name"); // soruda mane attribute dedigi icin name yazdık
+        String actualAtributuName = aramaKutusu.getAttribute("name"); // soruda name attribute dedigi icin name yazdık
         if (actualAtributuName.equals(expectedAtributuName)){
             System.out.println("Atribute TESTI PASSED");
         } else System.out.println("Atribute TESTI FAILED");

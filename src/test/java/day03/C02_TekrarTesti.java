@@ -36,6 +36,9 @@ public class C02_TekrarTesti {
         aramaKutusu.sendKeys("city bike", Keys.ENTER);
 
         //c. Amazon'da görüntülenen ilgili sonuçların sayısını yazdırın
+        // xpath kullanmadan find elementle locate aldım ve bunları liste atadım
+        // 1. sini de get(0) ile yazdırdım
+        // List yazdıgım icin findElements olarak -s takısı da koydum
         List<WebElement> aramaSonucu = driver.findElements(By.className("sg-col-inner"));
         String sonucYazisi = aramaSonucu.get(0).getText();
         System.out.println(sonucYazisi);
@@ -46,6 +49,7 @@ public class C02_TekrarTesti {
 
         // Sonuc sayısını LAMBDA ile yazdırınız
         Arrays.stream(sonucYazisi.split(" ")).limit(3).skip(2).forEach(System.out::println);
+        // 3 e kadar limit koy 2. sini al, acıklama yazmayacaksam sout u boyle yazabilirim
 
         //e. Sonra karşınıza çıkan ilk sonucun resmine tıklayın
         List<WebElement> ilkResim = driver.findElements(By.className("s-image"));

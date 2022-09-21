@@ -29,7 +29,7 @@ public class C01_Ilkclass {
         System.out.println("Actual Title: " + driver.getTitle()); // Gidilen sitenin baslıgını yazdırır (String olarak)
                                                                   // İcindeki sayfanın baslıgını yazdırır
 
-        System.out.println("Actual Url:  = " + driver.getCurrentUrl()); // Gidilen sayfanın Url'ini getirir
+        System.out.println("Actual Url:  = " + driver.getCurrentUrl()); // Gidilen sayfanın Url'ini getirir (String olarak)
         System.out.println(driver.getPageSource());
     }
 }
